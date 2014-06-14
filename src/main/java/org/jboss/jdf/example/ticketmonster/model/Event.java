@@ -66,7 +66,7 @@ public class Event implements Serializable {
     @Column(unique = true)
     @NotNull
     @Size(min = 5, max = 50, message = "An event's name must contain between 5 and 50 characters")
-    private String name
+    private String name;
 
     /**
      * <p>
